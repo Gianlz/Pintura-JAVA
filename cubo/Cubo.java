@@ -161,7 +161,7 @@ public class Cubo {
 		builder.append("\n Latas de Tinta = ");
 		builder.append(latas);
 		builder.append("\n Total = ");
-		builder.append(total);
+		builder.append(select());
 		return builder.toString();
 	}
 
